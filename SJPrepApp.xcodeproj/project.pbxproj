@@ -14,6 +14,8 @@
 		CD9C9B5A20CDC53800053BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9C9B5820CDC53800053BDF /* LaunchScreen.storyboard */; };
 		CD9C9B6520CDC53900053BDF /* SJPrepAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9C9B6420CDC53900053BDF /* SJPrepAppTests.swift */; };
 		CD9C9B7020CDC53900053BDF /* SJPrepAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9C9B6F20CDC53900053BDF /* SJPrepAppUITests.swift */; };
+		CD9C9B7F20CDC78600053BDF /* SJP_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9C9B7E20CDC78600053BDF /* SJP_Logo.png */; };
+		CD9C9B8120CDD08B00053BDF /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9C9B8020CDD08B00053BDF /* phone.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CD9C9B6B20CDC53900053BDF /* SJPrepAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJPrepAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9C9B6F20CDC53900053BDF /* SJPrepAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJPrepAppUITests.swift; sourceTree = "<group>"; };
 		CD9C9B7120CDC53900053BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9C9B7E20CDC78600053BDF /* SJP_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SJP_Logo.png; sourceTree = "<group>"; };
+		CD9C9B8020CDD08B00053BDF /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		CD9C9B4320CDC53800053BDF = {
 			isa = PBXGroup;
 			children = (
+				CD9C9B7D20CDC6E900053BDF /* Images */,
 				CD9C9B4E20CDC53800053BDF /* SJPrepApp */,
 				CD9C9B6320CDC53900053BDF /* SJPrepAppTests */,
 				CD9C9B6E20CDC53900053BDF /* SJPrepAppUITests */,
@@ -123,6 +128,15 @@
 				CD9C9B7120CDC53900053BDF /* Info.plist */,
 			);
 			path = SJPrepAppUITests;
+			sourceTree = "<group>";
+		};
+		CD9C9B7D20CDC6E900053BDF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CD9C9B8020CDD08B00053BDF /* phone.png */,
+				CD9C9B7E20CDC78600053BDF /* SJP_Logo.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9C9B7F20CDC78600053BDF /* SJP_Logo.png in Resources */,
 				CD9C9B5A20CDC53800053BDF /* LaunchScreen.storyboard in Resources */,
+				CD9C9B8120CDD08B00053BDF /* phone.png in Resources */,
 				CD9C9B5720CDC53800053BDF /* Assets.xcassets in Resources */,
 				CD9C9B5520CDC53800053BDF /* Main.storyboard in Resources */,
 			);
